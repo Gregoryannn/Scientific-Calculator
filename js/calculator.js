@@ -1,7 +1,7 @@
 var txtField = document.getElementById('show');
 
 // for adding keyboard functionality
-document.addEventListener('keypress', function (event) {
+document.addEventListener('keypress', function(event) {
     if (event.defaultPrevented) {
         return;
     }
